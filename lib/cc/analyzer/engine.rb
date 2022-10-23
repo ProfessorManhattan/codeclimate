@@ -79,7 +79,6 @@ module CC
           "--label", "com.codeclimate.label=#{@label}",
           "--log-driver", "none",
           "--memory-swap", "-1",
-          "--net", "none",
           "--rm",
           "--volume", "#{code.host_path}:/code:ro",
           "--volume", "#{config_file.host_path}:/config.json:ro",

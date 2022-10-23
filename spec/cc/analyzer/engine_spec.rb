@@ -29,7 +29,6 @@ module CC::Analyzer
           "--label", "com.codeclimate.label=a-label",
           "--memory", "1024000000",
           "--memory-swap", "-1",
-          "--net", "none",
           "--rm",
           "--user", "9000:9000",
         )).and_return(Container::Result.new)
